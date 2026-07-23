@@ -1,0 +1,117 @@
+/* ===== Barista-Handbuch – Stylesheet ===== */
+:root{
+  --bg:#f7f2ea;
+  --card:#ffffff;
+  --ink:#2b2118;
+  --muted:#8d7e6b;
+  --accent:#a5673f;
+  --accent-dark:#7d4a28;
+  --accent-soft:#f0e2d2;
+  --line:#e6dac9;
+  --hot:#c0663a;
+  --iced:#3a7ac0;
+  --green:#5d8a4a;
+  --pink:#c05a8a;
+  --gold:#c9a227;
+  --radius:14px;
+  --shadow:0 2px 10px rgba(60,40,20,.07);
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;}
+
+/* ===== Hero ===== */
+.hero{background:linear-gradient(160deg,#31261b 0%,#4a3826 60%,#5d4630 100%);color:#f5eee2;padding:40px 20px 0;text-align:center;overflow:hidden;}
+.hero h1{font-size:clamp(1.6rem,4vw,2.4rem);letter-spacing:.5px;}
+.hero p{color:#cdbfa8;margin-top:6px;font-size:1rem;}
+.hero .hero-art{display:block;margin:20px auto -4px;max-width:520px;width:90%;}
+
+/* ===== Nav ===== */
+nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.95);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:6px;padding:10px 14px;justify-content:center;}
+nav a{text-decoration:none;color:var(--ink);font-size:.85rem;font-weight:500;padding:6px 13px;border-radius:20px;background:var(--accent-soft);white-space:nowrap;transition:.15s;}
+nav a:hover{background:var(--accent);color:#fff;}
+
+main{max-width:960px;margin:0 auto;padding:26px 16px 70px;}
+
+/* ===== Search ===== */
+.search-wrap{position:relative;margin:8px 0 10px;}
+.search-wrap input{width:100%;padding:14px 18px 14px 46px;border:1px solid var(--line);border-radius:12px;font-size:1rem;background:var(--card);box-shadow:var(--shadow);}
+.search-wrap svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:20px;height:20px;stroke:var(--muted);}
+.no-results{display:none;text-align:center;color:var(--muted);padding:30px;font-style:italic;}
+
+/* ===== Sections ===== */
+section{margin-top:46px;scroll-margin-top:76px;}
+.section-head{display:flex;align-items:center;gap:16px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 20px;box-shadow:var(--shadow);}
+.section-head .sec-art{flex:0 0 auto;width:72px;height:72px;}
+.section-head h2{font-size:1.3rem;}
+.section-head .sub{color:var(--muted);font-size:.88rem;margin-top:2px;}
+.vessel-tag{display:inline-block;margin:14px 0 4px;background:var(--accent-soft);color:var(--accent-dark);font-size:.83rem;font-weight:600;padding:5px 14px;border-radius:8px;}
+
+/* ===== Drink cards ===== */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-top:12px;}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow);display:flex;flex-direction:column;}
+.card-top{display:flex;align-items:center;gap:12px;margin-bottom:10px;}
+.card-top .drink-art{flex:0 0 auto;width:46px;height:46px;}
+.card h3{font-size:1.02rem;line-height:1.3;}
+.badges{display:flex;gap:5px;flex-wrap:wrap;margin-top:3px;}
+.badge{font-size:.66rem;font-weight:700;padding:2px 8px;border-radius:10px;color:#fff;letter-spacing:.3px;text-transform:uppercase;}
+.b-hot{background:var(--hot);} .b-iced{background:var(--iced);} .b-green{background:var(--green);}
+.b-pink{background:var(--pink);} .b-gray{background:var(--muted);} .b-gold{background:var(--gold);}
+
+/* Steps */
+.steps{list-style:none;margin-top:4px;}
+.steps li{position:relative;padding:0 0 12px 34px;}
+.steps li::before{content:attr(data-n);position:absolute;left:0;top:0;width:22px;height:22px;border-radius:50%;background:var(--accent);color:#fff;font-size:.72rem;font-weight:700;display:flex;align-items:center;justify-content:center;}
+.steps li:not(:last-child)::after{content:'';position:absolute;left:10.5px;top:24px;bottom:2px;width:1.5px;background:var(--line);}
+.hint{margin-top:auto;padding-top:8px;font-size:.82rem;color:var(--muted);font-style:italic;border-top:1px dashed var(--line);}
+
+/* ===== Info / service cards ===== */
+.info-card{background:var(--accent-soft);border:none;border-radius:var(--radius);padding:18px 20px;margin-top:12px;}
+.info-card h3{font-size:1rem;margin-bottom:8px;display:flex;align-items:center;gap:8px;}
+.info-card ul{margin-left:20px;}
+.info-card ul li{margin-bottom:5px;font-size:.94rem;}
+.placeholder{border:2px dashed var(--line);background:transparent;color:var(--muted);text-align:center;padding:30px;border-radius:var(--radius);margin-top:12px;}
+
+/* ===== Vessel overview table ===== */
+.vessel-table{width:100%;border-collapse:collapse;margin-top:12px;background:var(--card);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);font-size:.92rem;}
+.vessel-table th,.vessel-table td{padding:11px 14px;text-align:left;border-bottom:1px solid var(--line);}
+.vessel-table th{background:var(--accent-dark);color:#fff;font-weight:600;}
+.vessel-table tr:last-child td{border-bottom:none;}
+.vessel-table td:first-child{font-weight:600;white-space:nowrap;}
+
+/* ===== Photo slots ===== */
+.photo{position:relative;width:100%;aspect-ratio:4/3;border-radius:10px;overflow:hidden;margin-bottom:12px;background:repeating-linear-gradient(45deg,#f3ece1,#f3ece1 12px,#ede4d6 12px,#ede4d6 24px);border:2px dashed var(--line);display:flex;align-items:center;justify-content:center;}
+.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none;}
+.photo.loaded{border:none;background:none;}
+.photo.loaded img{display:block;}
+.photo .ph-label{text-align:center;color:var(--muted);font-size:.78rem;padding:8px;}
+.photo .ph-label .ph-icon{font-size:1.6rem;display:block;margin-bottom:4px;}
+.photo .ph-label code{background:#fff;border:1px solid var(--line);border-radius:6px;padding:1px 6px;font-size:.74rem;}
+.photo-wide{aspect-ratio:16/6;margin-top:12px;}
+
+/* ===== Footer ===== */
+footer{text-align:center;color:var(--muted);font-size:.8rem;padding:28px;border-top:1px solid var(--line);margin-top:40px;}
+.hidden{display:none !important;}
+
+/* ===== Back to top ===== */
+#toTop{position:fixed;right:18px;bottom:18px;width:44px;height:44px;border-radius:50%;border:none;background:var(--accent);color:#fff;font-size:1.2rem;cursor:pointer;box-shadow:0 3px 10px rgba(0,0,0,.25);opacity:0;pointer-events:none;transition:.25s;}
+#toTop.show{opacity:1;pointer-events:auto;}
+
+@media (max-width:560px){
+  .section-head{flex-direction:row;padding:12px 14px;}
+  .section-head .sec-art{width:56px;height:56px;}
+  .grid{grid-template-columns:1fr;}
+}
+
+/* ===== Slider ===== */
+.slider{position:relative;margin-bottom:12px;}
+.slider .photo{margin-bottom:0;}
+.slide{display:none;}
+.slide.active{display:block;}
+.slide-note{font-size:.83rem;color:var(--accent-dark);font-style:italic;background:var(--accent-soft);border-radius:8px;padding:6px 10px;margin-top:8px;}
+.s-btn{position:absolute;top:34%;transform:translateY(-50%);width:32px;height:32px;border-radius:50%;border:none;background:rgba(255,255,255,.88);color:var(--accent-dark);font-size:1.3rem;line-height:1;cursor:pointer;box-shadow:0 1px 5px rgba(0,0,0,.2);z-index:2;}
+.s-prev{left:8px;}
+.s-next{right:8px;}
+.dots{display:flex;gap:6px;justify-content:center;margin-top:8px;}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--line);cursor:pointer;transition:.15s;}
+.dot.on{background:var(--accent);}

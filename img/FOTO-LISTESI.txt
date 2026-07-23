@@ -1,0 +1,41 @@
+FOTOĞRAF LİSTESİ
+================
+Her içeceğin 3 fotoğrafı var (slider). Fotoğrafları TAM BU
+İSİMLERLE bu klasöre (img/) at, sitede otomatik görünür.
+Kod değiştirmene gerek yok. Önerilen: yatay 4:3 kadraj, .jpg.
+
+3'ünü birden atmak zorunda değilsin — slider sadece mevcut
+fotoğrafları gösterir (1 foto varsa ok tuşları görünmez,
+hiç yoksa "Foto folgt" kutusu kalır).
+
+NOTLAR: Her fotoğrafın altına not yazmak için js/notes.js
+dosyasını aç, ilgili içeceğin satırındaki tırnakların içine yaz.
+
+İsim şablonu: <içecek>-1.jpg  <içecek>-2.jpg  <içecek>-3.jpg
+
+espresso-1.jpg              espresso-2.jpg              espresso-3.jpg
+  (= Kleiner Schwarzer ile ayni kart)
+doppelter-espresso-1.jpg    doppelter-espresso-2.jpg    doppelter-espresso-3.jpg
+  (= Grosser Schwarzer ile ayni kart)
+espresso-macchiato-1.jpg    espresso-macchiato-2.jpg    espresso-macchiato-3.jpg
+verlaengerter-americano-1.jpg  verlaengerter-americano-2.jpg  verlaengerter-americano-3.jpg
+cortado-1.jpg               cortado-2.jpg               cortado-3.jpg
+melange-1.jpg               melange-2.jpg               melange-3.jpg
+cappuccino-1.jpg            cappuccino-2.jpg            cappuccino-3.jpg
+flat-white-1.jpg            flat-white-2.jpg            flat-white-3.jpg
+cafe-latte-1.jpg            cafe-latte-2.jpg            cafe-latte-3.jpg
+heisse-schokolade-1.jpg     heisse-schokolade-2.jpg     heisse-schokolade-3.jpg
+chai-latte-1.jpg            chai-latte-2.jpg            chai-latte-3.jpg
+matcha-latte-1.jpg          matcha-latte-2.jpg          matcha-latte-3.jpg
+latte-macchiato-1.jpg       latte-macchiato-2.jpg       latte-macchiato-3.jpg
+iced-americano-1.jpg        iced-americano-2.jpg        iced-americano-3.jpg
+espresso-tonic-1.jpg        espresso-tonic-2.jpg        espresso-tonic-3.jpg
+iced-cappuccino-1.jpg       iced-cappuccino-2.jpg       iced-cappuccino-3.jpg
+iced-cafe-latte-1.jpg       iced-cafe-latte-2.jpg       iced-cafe-latte-3.jpg
+iced-chai-latte-1.jpg       iced-chai-latte-2.jpg       iced-chai-latte-3.jpg
+iced-dirty-chai-1.jpg       iced-dirty-chai-2.jpg       iced-dirty-chai-3.jpg
+iced-matcha-latte-1.jpg     iced-matcha-latte-2.jpg     iced-matcha-latte-3.jpg
+matcha-erdbeer-mango-1.jpg  matcha-erdbeer-mango-2.jpg  matcha-erdbeer-mango-3.jpg
+iced-ube-latte-1.jpg        iced-ube-latte-2.jpg        iced-ube-latte-3.jpg
+limonade-1.jpg              limonade-2.jpg              limonade-3.jpg
+fruchtsaft-1.jpg            fruchtsaft-2.jpg            fruchtsaft-3.jpg

@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barista-Handbuch</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="hero">
+  <h1>☕ Barista-Handbuch</h1>
+  <p>Zubereitung &amp; Service – Nachschlagewerk für alle Mitarbeiter:innen</p>
+  <svg class="hero-art" viewBox="0 0 520 150" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <rect x="0" y="130" width="520" height="20" rx="4" fill="#6b5237"/>
+    <g><rect x="60" y="60" width="90" height="70" rx="8" fill="#8a6a48"/><rect x="70" y="45" width="70" height="20" rx="4" fill="#a5825e"/><rect x="88" y="80" width="34" height="26" rx="4" fill="#3a2c1e"/><rect x="100" y="106" width="10" height="14" fill="#d9c6ab"/></g>
+    <g><ellipse cx="230" cy="126" rx="30" ry="5" fill="#4a3826"/><path d="M208 90 h44 v22 a22 22 0 0 1 -44 0 z" fill="#f5eee2"/><path d="M252 94 h10 a8 8 0 0 1 0 16 h-10" fill="none" stroke="#f5eee2" stroke-width="5"/><path d="M218 78 q3 -8 0 -14 M230 78 q3 -8 0 -14 M242 78 q3 -8 0 -14" stroke="#cdbfa8" stroke-width="3" fill="none" stroke-linecap="round"/></g>
+    <g><ellipse cx="330" cy="126" rx="24" ry="5" fill="#4a3826"/><path d="M314 66 h32 l-4 58 h-24 z" fill="#bfd8ee" opacity=".85"/><rect x="316" y="96" width="28" height="26" fill="#8a5f3c" opacity=".8"/><rect x="318" y="70" width="24" height="10" fill="#e8f2fa"/><rect x="336" y="46" width="5" height="34" rx="2" fill="#f5eee2"/></g>
+    <g><ellipse cx="428" cy="126" rx="26" ry="5" fill="#4a3826"/><path d="M410 72 h36 l-3 52 h-30 z" fill="#cfe3c2" opacity=".9"/><circle cx="420" cy="96" r="5" fill="#fff" opacity=".7"/><circle cx="434" cy="108" r="4" fill="#fff" opacity=".7"/><path d="M444 64 l8 -10" stroke="#5d8a4a" stroke-width="4" stroke-linecap="round"/></g>
+  </svg>
+</div>
+
+<nav>
+  <a href="#regeln">Regeln</a>
+  <a href="#service">Service</a>
+  <a href="#espresso">Espresso</a>
+  <a href="#glas">Glas-Kaffees</a>
+  <a href="#tassen">Milchkaffees</a>
+  <a href="#grosse">Große Tasse</a>
+  <a href="#iced">Iced</a>
+  <a href="#limo">Limo &amp; Saft</a>
+  <a href="#desserts">Desserts</a>
+  <a href="#flaschen">Flaschen</a>
+  <a href="#togo">To-Go</a>
+</nav>
+
+<main>
+
+<div class="search-wrap">
+  <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+  <input type="text" id="search" placeholder="Getränk suchen … (z. B. Cortado, Melange, Iced Matcha)">
+</div>
+<p class="no-results" id="noResults">Kein Getränk gefunden.</p>
+
+<!-- ================= ALLGEMEINE REGELN ================= -->
+<section id="regeln">
+  <div class="section-head">
+    <svg class="sec-art" viewBox="0 0 64 64"><rect x="14" y="8" width="36" height="48" rx="4" fill="#f0e2d2"/><rect x="14" y="8" width="36" height="10" rx="4" fill="#a5673f"/><path d="M20 26 h24 M20 34 h24 M20 42 h16" stroke="#8d7e6b" stroke-width="2.5" stroke-linecap="round"/></svg>
+    <div><h2>Allgemeine Regeln</h2><p class="sub">Grundregeln für alle Mitarbeiter:innen</p></div>
+  </div>
+  <div class="placeholder">Dieser Abschnitt wird noch ergänzt.<br>Hier stehen künftig die wichtigsten Grundregeln für das Team.</div>
+</section>
+
+<!-- ================= SERVICE ================= -->
+<section id="service">
+  <div class="section-head">
+    <svg class="sec-art" viewBox="0 0 64 64"><ellipse cx="32" cy="46" rx="24" ry="6" fill="#a5673f"/><path d="M12 44 q20 -28 40 0" fill="#f0e2d2" stroke="#a5673f" stroke-width="2"/><circle cx="32" cy="16" r="3" fill="#a5673f"/></svg>
+    <div><h2>Service-Grundlagen</h2><p class="sub">Untersetzer, Strohhalme, Gläser &amp; Tassen</p></div>
+  </div>
+
+  <div class="info-card">
+    <h3>🪵 Untersetzer &amp; Zubehör</h3>
+    <ul>
+      <li><strong>Heißgetränke:</strong> länglicher Holzuntersetzer, immer mit Löffel servieren.</li>
+      <li><strong>Iced-Getränke:</strong> runder Holzuntersetzer.</li>
+      <li><strong>Kalte Getränke im Glas:</strong> Glasstrohhalm.</li>
+      <li><strong>Einzige Ausnahme:</strong> 0,5-l-Limonaden → langer Papierstrohhalm.</li>
+    </ul>
+  </div>
+
+  <table class="vessel-table">
+    <tr><th>Gefäß</th><th>Getränke</th></tr>
+    <tr><td>Kleine Keramiktasse</td><td>Espresso / Kleiner Schwarzer · Doppelter Espresso / Großer Schwarzer · Espresso Macchiato</td></tr>
+    <tr><td>Doppelwandiges Glas</td><td>Verlängerter / Americano · Cortado</td></tr>
+    <tr><td>Mittlere Keramiktasse</td><td>Melange · Cappuccino · Flat White</td></tr>
+    <tr><td>Große Tasse</td><td>Café Latte · Heiße Schokolade · Chai Latte · Matcha Latte</td></tr>
+    <tr><td>Glas</td><td>Latte Macchiato (Ausnahme bei den Heißgetränken)</td></tr>
+    <tr><td>Großes Glas</td><td>Iced Matcha Latte · Iced Chai Latte · Iced Café Latte · Iced Ube Latte · Iced Dirty Chai · Limonade 0,5 l · Saft 0,5 l</td></tr>
+    <tr><td>Mittleres Wasserglas</td><td>Iced Americano · Espresso Tonic · Iced Cappuccino</td></tr>
+  </table>
+</section>
+
+<!-- ================= ESPRESSO ================= -->
+<section id="espresso">
+  <div class="section-head">
+    <svg class="sec-art" viewBox="0 0 64 64"><ellipse cx="32" cy="52" rx="20" ry="4" fill="#d9c6ab"/><path d="M18 28 h28 v12 a14 14 0 0 1 -28 0 z" fill="#fff" stroke="#a5673f" stroke-width="2"/><path d="M46 31 h6 a6 6 0 0 1 0 12 h-6" fill="none" stroke="#a5673f" stroke-width="2"/><path d="M25 20 q2 -5 0 -9 M32 20 q2 -5 0 -9 M39 20 q2 -5 0 -9" stroke="#c0663a" stroke-width="2.5" fill="none" stroke-linecap="round"/><ellipse cx="32" cy="30" rx="12" ry="3" fill="#6b4226"/></svg>
+    <div><h2>Espresso-Klassiker</h2><p class="sub">Die Basis von allem</p></div>
+  </div>
+  <span class="vessel-tag">🫖 Kleine Keramiktasse</span>
+
+  <div class="grid">
+    <div class="card drink">
+      <div class="slider" data-slug="espresso" data-alt="Espresso / Kleiner Schwarzer"></div>
+      <div class="card-top"><div><h3>Espresso / Kleiner Schwarzer</h3><div class="badges"><span class="badge b-hot">Heiß</span></div></div></div>
+      <ol class="steps"><li data-n="1">1 Shot Espresso in die kleine Keramiktasse.</li></ol>
+      <p class="hint">„Kleiner Schwarzer" ist dasselbe Getränk – nur der Wiener Name.</p>
+    </div>
+
+    <div class="card drink">
+      <div class="slider" data-slug="doppelter-espresso" data-alt="Doppelter Espresso / Großer Schwarzer"></div>
+      <div class="card-top"><div><h3>Doppelter Espresso / Großer Schwarzer</h3><div class="badges"><span class="badge b-hot">Heiß</span></div></div></div>
+      <ol class="steps"><li data-n="1">2 Shots Espresso in die kleine Keramiktasse.</li></ol>
+      <p class="hint">„Großer Schwarzer" ist dasselbe Getränk – nur der Wiener Name.</p>
+    </div>
+
+    <div class="card drink">
+      <div class="slider" data-slug="espresso-macchiato" data-alt="Espresso Macchiato"></div>
+      <div class="card-top"><div><h3>Espresso Macchiato</h3><div class="badges"><span class="badge b-hot">Heiß</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">1 Shot Espresso.</li>
+        <li data-n="2">Mit dem Löffel einen Klecks Milchschaum obendrauf setzen.</li>
+      </ol>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= DOPPELWANDIGES GLAS ================= -->
+<section id="glas">
+  <div class="section-head">
+    <svg class="sec-art" viewBox="0 0 64 64"><ellipse cx="32" cy="54" rx="18" ry="4" fill="#d9c6ab"/><path d="M20 14 h24 l-2 38 h-20 z" fill="#eaf3fa" stroke="#9db8cc" stroke-width="2"/><rect x="22" y="30" width="20" height="20" fill="#8a5f3c"/><rect x="22" y="24" width="20" height="7" fill="#f5eee2"/></svg>
+    <div><h2>Verlängerter, Americano &amp; Cortado</h2><p class="sub">Kaffee im doppelwandigen Glas</p></div>
+  </div>
+  <span class="vessel-tag">🥃 Doppelwandiges Glas</span>
+
+  <div class="grid">
+    <div class="card drink">
+      <div class="slider" data-slug="verlaengerter-americano" data-alt="Verlängerter / Americano"></div>
+      <div class="card-top"><div><h3>Verlängerter / Americano</h3><div class="badges"><span class="badge b-hot">Heiß</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">Heißes Wasser ins Glas.</li>
+        <li data-n="2">1 Shot Espresso darüber extrahieren.</li>
+      </ol>
+      <p class="hint">Americano wird identisch zubereitet – zwei Namen, ein Getränk.</p>
+    </div>
+
+    <div class="card drink">
+      <div class="slider" data-slug="cortado" data-alt="Cortado"></div>
+      <div class="card-top"><div><h3>Cortado</h3><div class="badges"><span class="badge b-hot">Heiß</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">Doppelter Espresso ins Glas.</li>
+        <li data-n="2">Mit aufgeschäumter heißer Milch auffüllen.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MITTLERE TASSE ================= -->
+<section id="tassen">
+  <div class="section-head">
+    <svg class="sec-art" viewBox="0 0 64 64"><ellipse cx="32" cy="52" rx="20" ry="4" fill="#d9c6ab"/><path d="M16 24 h32 v14 a16 16 0 0 1 -32 0 z" fill="#fff" stroke="#a5673f" stroke-width="2"/><path d="M48 27 h6 a6 6 0 0 1 0 13 h-6" fill="none" stroke="#a5673f" stroke-width="2"/><path d="M24 27 q8 -6 16 0 q-8 8 -16 0" fill="#e8d3b8"/></svg>
+    <div><h2>Melange, Cappuccino &amp; Flat White</h2><p class="sub">Espresso trifft heiße Milch</p></div>
+  </div>
+  <span class="vessel-tag">☕ Mittlere Keramiktasse</span>
+
+  <div class="grid">
+    <div class="card drink">
+      <div class="slider" data-slug="melange" data-alt="Melange"></div>
+      <div class="card-top"><div><h3>Melange</h3><div class="badges"><span class="badge b-hot">Heiß</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">Ganz wenig heißes Wasser in die Tasse.</li>
+        <li data-n="2">1 Shot Espresso darüber.</li>
+        <li data-n="3">Mit heißer Milch auffüllen.</li>
+      </ol>
+    </div>
+
+    <div class="card drink">
+      <div class="slider" data-slug="cappuccino" data-alt="Cappuccino"></div>
+      <div class="card-top"><div><h3>Cappuccino</h3><div class="badges"><span class="badge b-hot">Heiß</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">1 Shot Espresso direkt in die Tasse.</li>
+        <li data-n="2">Mit heißer Milch auffüllen.</li>
+      </ol>
+    </div>
+
+    <div class="card drink">
+      <div class="slider" data-slug="flat-white" data-alt="Flat White"></div>
+      <div class="card-top"><div><h3>Flat White</h3><div class="badges"><span class="badge b-hot">Heiß</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">Doppelter Espresso in die Tasse.</li>
+        <li data-n="2">Mit heißer Milch auffüllen.</li>
+      </ol>
+      <p class="hint">Im Grunde ein Cappuccino mit doppeltem Espresso. Unterschied zum Cortado: die Milchmenge.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GROSSE TASSE ================= -->
+<section id="grosse">
+  <div class="section-head">
+    <svg class="sec-art" viewBox="0 0 64 64"><ellipse cx="32" cy="54" rx="22" ry="4" fill="#d9c6ab"/><path d="M14 18 h36 v18 a18 18 0 0 1 -36 0 z" fill="#fff" stroke="#a5673f" stroke-width="2"/><path d="M50 22 h6 a7 7 0 0 1 0 15 h-6" fill="none" stroke="#a5673f" stroke-width="2"/><path d="M20 24 q12 -8 24 0 q-12 10 -24 0" fill="#cfe3c2"/></svg>
+    <div><h2>Große Tasse &amp; Latte Macchiato</h2><p class="sub">Latte, Schoko, Chai &amp; Matcha</p></div>
+  </div>
+  <span class="vessel-tag">🍵 Große Tasse</span>
+
+  <div class="grid">
+    <div class="card drink">
+      <div class="slider" data-slug="cafe-latte" data-alt="Café Latte"></div>
+      <div class="card-top"><div><h3>Café Latte</h3><div class="badges"><span class="badge b-hot">Heiß</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">1 Shot Espresso.</li>
+        <li data-n="2">Mit heißer Milch auffüllen.</li>
+      </ol>
+    </div>
+
+    <div class="card drink">
+      <div class="slider" data-slug="heisse-schokolade" data-alt="Heiße Schokolade"></div>
+      <div class="card-top"><div><h3>Heiße Schokolade</h3><div class="badges"><span class="badge b-hot">Heiß</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">3 Löffel Kakaopulver in die Tasse.</li>
+        <li data-n="2">Mit etwas Milch das Pulver glatt anrühren.</li>
+        <li data-n="3">Rest mit heißer Milch auffüllen.</li>
+      </ol>
+    </div>
+
+    <div class="card drink">
+      <div class="slider" data-slug="chai-latte" data-alt="Chai Latte"></div>
+      <div class="card-top"><div><h3>Chai Latte</h3><div class="badges"><span class="badge b-hot">Heiß</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">3 Pumpstöße Chai-Sirup in die Tasse.</li>
+        <li data-n="2">Mit heißer Milch auffüllen.</li>
+      </ol>
+    </div>
+
+    <div class="card drink">
+      <div class="slider" data-slug="matcha-latte" data-alt="Matcha Latte"></div>
+      <div class="card-top"><div><h3>Matcha Latte</h3><div class="badges"><span class="badge b-green">Matcha</span> <span class="badge b-hot">Heiß</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">1 gehäuften Löffel Matcha-Pulver mit 80 ml Wasser (70 °C) aufschlagen.</li>
+        <li data-n="2">Rest mit heißer Milch auffüllen.</li>
+      </ol>
+    </div>
+
+    <div class="card drink">
+      <div class="slider" data-slug="latte-macchiato" data-alt="Latte Macchiato"></div>
+      <div class="card-top"><div><h3>Latte Macchiato</h3><div class="badges"><span class="badge b-hot">Heiß</span> <span class="badge b-gray">Ausnahme: Glas</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">Einzige Ausnahme bei den Heißgetränken: wird im <strong>Glas</strong> serviert.</li>
+        <li data-n="2">Zuerst heiße Milch ins Glas füllen.</li>
+        <li data-n="3">Espresso ins kleine Metallkännchen laufen lassen.</li>
+        <li data-n="4">Espresso vorsichtig über die Milch gießen.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ICED ================= -->
+<section id="iced">
+  <div class="section-head">
+    <svg class="sec-art" viewBox="0 0 64 64"><ellipse cx="32" cy="56" rx="18" ry="4" fill="#d9c6ab"/><path d="M20 10 h24 l-3 44 h-18 z" fill="#dcecf7" stroke="#9db8cc" stroke-width="2"/><rect x="24" y="18" width="8" height="8" rx="2" fill="#fff" stroke="#bcd6ea"/><rect x="32" y="28" width="8" height="8" rx="2" fill="#fff" stroke="#bcd6ea"/><rect x="23" y="38" width="8" height="8" rx="2" fill="#fff" stroke="#bcd6ea"/><rect x="40" y="4" width="4" height="28" rx="2" fill="#3a7ac0"/></svg>
+    <div><h2>Iced-Getränke</h2><p class="sub">Immer im Glas · runder Untersetzer · Glasstrohhalm</p></div>
+  </div>
+
+  <span class="vessel-tag">🥛 Mittleres Wasserglas</span>
+  <div class="grid">
+    <div class="card drink">
+      <div class="slider" data-slug="iced-americano" data-alt="Iced Americano"></div>
+      <div class="card-top"><div><h3>Iced Americano</h3><div class="badges"><span class="badge b-iced">Iced</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">Eis + Wasser ins Glas.</li>
+        <li data-n="2">Espresso aus dem Metallkännchen darüber gießen.</li>
+      </ol>
+    </div>
+
+    <div class="card drink">
+      <div class="slider" data-slug="espresso-tonic" data-alt="Espresso Tonic"></div>
+      <div class="card-top"><div><h3>Espresso Tonic</h3><div class="badges"><span class="badge b-iced">Iced</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">Eis + Schweppes ins Glas.</li>
+        <li data-n="2">Espresso aus dem Kännchen darüber gießen.</li>
+        <li data-n="3">Mit einer Zitronenscheibe garnieren.</li>
+      </ol>
+    </div>
+
+    <div class="card drink">
+      <div class="slider" data-slug="iced-cappuccino" data-alt="Iced Cappuccino"></div>
+      <div class="card-top"><div><h3>Iced Cappuccino</h3><div class="badges"><span class="badge b-iced">Iced</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">Eis + Milch ins Glas.</li>
+        <li data-n="2">Espresso darüber.</li>
+      </ol>
+    </div>
+  </div>
+
+  <span class="vessel-tag">🥤 Großes Glas</span>
+  <div class="grid">
+    <div class="card drink">
+      <div class="slider" data-slug="iced-cafe-latte" data-alt="Iced Café Latte"></div>
+      <div class="card-top"><div><h3>Iced Café Latte</h3><div class="badges"><span class="badge b-iced">Iced</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">Eis + Milch ins Glas.</li>
+        <li data-n="2">Espresso darüber.</li>
+      </ol>
+    </div>
+
+    <div class="card drink">
+      <div class="slider" data-slug="iced-chai-latte" data-alt="Iced Chai Latte"></div>
+      <div class="card-top"><div><h3>Iced Chai Latte</h3><div class="badges"><span class="badge b-iced">Iced</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">Eis ins Glas.</li>
+        <li data-n="2">3 Pumpstöße Chai-Sirup.</li>
+        <li data-n="3">Mit Milch auffüllen.</li>
+      </ol>
+    </div>
+
+    <div class="card drink">
+      <div class="slider" data-slug="iced-dirty-chai" data-alt="Iced Dirty Chai"></div>
+      <div class="card-top"><div><h3>Iced Dirty Chai</h3><div class="badges"><span class="badge b-iced">Iced</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">Eis ins Glas.</li>
+        <li data-n="2">3 Pumpstöße Chai-Sirup.</li>
+        <li data-n="3">Mit Milch auffüllen.</li>
+        <li data-n="4">Zum Schluss 1 Shot Espresso darüber.</li>
+      </ol>
+    </div>
+
+    <div class="card drink">
+      <div class="slider" data-slug="iced-matcha-latte" data-alt="Iced Matcha Latte"></div>
+      <div class="card-top"><div><h3>Iced Matcha Latte</h3><div class="badges"><span class="badge b-green">Matcha</span> <span class="badge b-iced">Iced</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">1 Löffel Matcha-Pulver mit 80 ml Wasser (70 °C) aufschlagen.</li>
+        <li data-n="2">Eis + Milch ins Glas.</li>
+        <li data-n="3">Matcha zum Schluss darüber gießen.</li>
+      </ol>
+    </div>
+
+    <div class="card drink">
+      <div class="slider" data-slug="matcha-erdbeer-mango" data-alt="Matcha Erdbeer / Mango"></div>
+      <div class="card-top"><div><h3>Matcha Erdbeer / Mango</h3><div class="badges"><span class="badge b-pink">Fruchtig</span> <span class="badge b-iced">Iced</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">2 Pumpstöße Erdbeer- bzw. Mango-Püree ins Glas geben und an der Innenwand gut verteilen.</li>
+        <li data-n="2">Eis + Milch einfüllen.</li>
+        <li data-n="3">Aufgeschlagenen Matcha darüber gießen.</li>
+        <li data-n="4">Obenauf 3 Löffel Erdbeer- bzw. Mango-Chips (je nach Sorte) dekorativ verteilen.</li>
+      </ol>
+    </div>
+
+    <div class="card drink">
+      <div class="slider" data-slug="iced-ube-latte" data-alt="Iced Ube Latte"></div>
+      <div class="card-top"><div><h3>Iced Ube Latte</h3><div class="badges"><span class="badge b-iced">Iced</span></div></div></div>
+      <ol class="steps"><li data-n="1">Wird im großen Glas serviert.</li></ol>
+      <p class="hint">Rezept wird noch ergänzt.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LIMO & SAFT ================= -->
+<section id="limo">
+  <div class="section-head">
+    <svg class="sec-art" viewBox="0 0 64 64"><ellipse cx="32" cy="56" rx="18" ry="4" fill="#d9c6ab"/><path d="M20 8 h24 l-3 46 h-18 z" fill="#fdf3d8" stroke="#c9a227" stroke-width="2"/><circle cx="30" cy="24" r="5" fill="#f2d24b"/><circle cx="36" cy="38" r="4" fill="#f2d24b"/><path d="M42 6 l6 -4" stroke="#5d8a4a" stroke-width="3" stroke-linecap="round"/><rect x="38" y="2" width="4" height="30" rx="2" fill="#e8b84b"/></svg>
+    <div><h2>Hausgemachte Limonade &amp; Fruchtsaft</h2><p class="sub">Erfrischung im großen Glas</p></div>
+  </div>
+
+  <div class="grid">
+    <div class="card drink">
+      <div class="slider" data-slug="limonade" data-alt="Hausgemachte Limonade"></div>
+      <div class="card-top"><div><h3>Hausgemachte Limonade (0,5 l)</h3><div class="badges"><span class="badge b-iced">Kalt</span> <span class="badge b-gold">0,5 l</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">Nur in 0,5 l – Gast wählt: stilles Wasser oder Soda.</li>
+        <li data-n="2">Großes Glas: zuerst Eis.</li>
+        <li data-n="3">Wasser bzw. Soda einfüllen.</li>
+        <li data-n="4">5 Pumpstöße Sirup.</li>
+        <li data-n="5">Mit Minze und Zitrone garnieren.</li>
+        <li data-n="6">Mit <strong>Papierstrohhalm</strong> und rundem Holzuntersetzer servieren.</li>
+      </ol>
+    </div>
+
+    <div class="card drink">
+      <div class="slider" data-slug="fruchtsaft" data-alt="Fruchtsaft"></div>
+      <div class="card-top"><div><h3>Fruchtsaft</h3><div class="badges"><span class="badge b-iced">Kalt</span> <span class="badge b-gold">0,2 / 0,5 l</span></div></div></div>
+      <ol class="steps">
+        <li data-n="1">Gast wählt: 0,2 l pur <em>oder</em> 0,5 l mit Soda/Wasser.</li>
+        <li data-n="2">Nur Eis ins Glas (kein Sirup).</li>
+        <li data-n="3">Fruchtsaft eingießen.</li>
+        <li data-n="4">Bei 0,5 l: mit Wasser bzw. Soda auffüllen.</li>
+        <li data-n="5">Service wie bei der Limonade.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DESSERTS ================= -->
+<section id="desserts">
+  <div class="section-head">
+    <svg class="sec-art" viewBox="0 0 64 64"><ellipse cx="32" cy="54" rx="24" ry="5" fill="#d9c6ab"/><path d="M16 50 l10 -26 h12 l10 26 z" fill="#f0d7e2" stroke="#c05a8a" stroke-width="2"/><path d="M26 24 q6 -10 12 0" fill="#a5673f"/><circle cx="32" cy="18" r="4" fill="#c0392b"/></svg>
+    <div><h2>Desserts</h2><p class="sub">Kuchen, Croissants, Donuts &amp; Muffins</p></div>
+  </div>
+
+  <div class="info-card">
+    <h3>🍰 Kuchen &amp; Torten</h3>
+    <ul><li>Auf dem Teller servieren – immer mit <strong>Serviette und Gabel</strong>.</li></ul>
+  </div>
+  <div class="info-card">
+    <h3>🥐 Croissants, Donuts &amp; Muffins</h3>
+    <ul><li>Einfach auf den Teller legen – ohne Besteck.</li></ul>
+  </div>
+</section>
+
+<!-- ================= FLASCHEN ================= -->
+<section id="flaschen">
+  <div class="section-head">
+    <svg class="sec-art" viewBox="0 0 64 64"><ellipse cx="32" cy="56" rx="16" ry="4" fill="#d9c6ab"/><path d="M27 8 h10 v10 q6 4 6 12 v22 h-22 v-22 q0 -8 6 -12 z" fill="#d7e8d0" stroke="#5d8a4a" stroke-width="2"/><rect x="27" y="4" width="10" height="5" rx="2" fill="#5d8a4a"/><rect x="24" y="32" width="16" height="12" rx="2" fill="#fff" opacity=".8"/></svg>
+    <div><h2>Flaschengetränke</h2><p class="sub">Fertige Getränke richtig servieren</p></div>
+  </div>
+
+  <div class="info-card">
+    <h3>🍾 Ablauf</h3>
+    <ul>
+      <li>Gast fragen, ob ein <strong>Glas mit Eis</strong> gewünscht ist.</li>
+      <li><strong>Fritz-Getränke:</strong> im eigenen Fritz-Glas servieren.</li>
+      <li><strong>Andere Marken:</strong> unser Wasserglas mit Holzuntersetzer neben dem Getränk servieren.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= TO-GO ================= -->
+<section id="togo">
+  <div class="section-head">
+    <svg class="sec-art" viewBox="0 0 64 64"><ellipse cx="32" cy="56" rx="18" ry="4" fill="#d9c6ab"/><path d="M20 18 h24 l-3 36 h-18 z" fill="#e8d8c3" stroke="#a5673f" stroke-width="2"/><rect x="18" y="12" width="28" height="7" rx="3" fill="#a5673f"/><path d="M26 30 h12 M26 38 h12" stroke="#a5673f" stroke-width="2.5" stroke-linecap="round"/></svg>
+    <div><h2>To-Go</h2><p class="sub">Alles auch zum Mitnehmen</p></div>
+  </div>
+
+  <div class="info-card">
+    <h3>🥤 Getränke to-go</h3>
+    <ul>
+      <li>Jedes Getränk (Kaffee, Limonade, alle Varianten) gibt es auch to-go.</li>
+      <li><strong>Heißgetränke:</strong> Kartonbecher in verschiedenen Größen.</li>
+      <li><strong>Kalte Getränke:</strong> Plastik-Shakebecher.</li>
+    </ul>
+  </div>
+  <div class="info-card">
+    <h3>🥡 Speisen to-go</h3>
+    <ul>
+      <li><strong>Kuchen/Torten:</strong> in der Styroporbox.</li>
+      <li><strong>Croissants, Muffins, Donuts, Sandwiches:</strong> in der Papiertüte.</li>
+      <li>Immer eine <strong>Serviette</strong> beilegen – bei Desserts zusätzlich eine <strong>Holzgabel</strong>.</li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<button id="toTop" title="Nach oben">↑</button>
+<footer>Barista-Handbuch · Stand: Juli 2026</footer>
+
+<script src="js/notes.js"></script>
+<script>
+// Slider: zeigt nur vorhandene Fotos (1–4) als Slides (Notizen: js/notes.js)
+document.querySelectorAll('.slider').forEach(sl => {
+  const slug = sl.dataset.slug, alt = sl.dataset.alt;
+  const notes = (typeof NOTES !== 'undefined' && NOTES[slug]) || [];
+  const loaded = [];
+  let done = 0;
+
+  const build = () => {
+    loaded.sort((a, b) => a.i - b.i);
+    if (!loaded.length) {
+      sl.innerHTML = '<div class="photo"><span class="ph-label"><span class="ph-icon">📷</span>Foto folgt<br><code>img/' + slug + '-1.jpg</code></span></div>';
+      return;
+    }
+    let html = '';
+    loaded.forEach((it, idx) => {
+      const note = notes[it.i - 1] || '';
+      html += '<div class="slide' + (idx === 0 ? ' active' : '') + '">' +
+        '<div class="photo loaded"><img src="' + it.src + '" alt="' + alt + ' – Foto ' + it.i + '" style="display:block"></div>' +
+        (note ? '<p class="slide-note">' + note + '</p>' : '') + '</div>';
+    });
+    if (loaded.length > 1) {
+      html += '<button class="s-btn s-prev" aria-label="Zurück">‹</button>' +
+              '<button class="s-btn s-next" aria-label="Weiter">›</button>' +
+              '<div class="dots">' + loaded.map((_, j) => '<span class="dot' + (j === 0 ? ' on' : '') + '" data-i="' + j + '"></span>').join('') + '</div>';
+    }
+    sl.innerHTML = html;
+    if (loaded.length > 1) {
+      const slides = sl.querySelectorAll('.slide');
+      const dots = sl.querySelectorAll('.dot');
+      const n = loaded.length;
+      let cur = 0;
+      const show = i => {
+        cur = (i + n) % n;
+        slides.forEach((s, j) => s.classList.toggle('active', j === cur));
+        dots.forEach((d, j) => d.classList.toggle('on', j === cur));
+      };
+      sl.querySelector('.s-prev').addEventListener('click', () => show(cur - 1));
+      sl.querySelector('.s-next').addEventListener('click', () => show(cur + 1));
+      dots.forEach(d => d.addEventListener('click', () => show(+d.dataset.i)));
+    }
+  };
+
+  [1, 2, 3, 4].forEach(i => {
+    const src = 'img/' + slug + '-' + i + '.jpg';
+    const im = new Image();
+    im.onload = () => { loaded.push({src, i}); if (++done === 4) build(); };
+    im.onerror = () => { if (++done === 4) build(); };
+    im.src = src;
+  });
+});
+
+// Suche
+const input = document.getElementById('search');
+const noResults = document.getElementById('noResults');
+input.addEventListener('input', () => {
+  const q = input.value.trim().toLowerCase();
+  let any = false;
+  document.querySelectorAll('.card.drink').forEach(c => {
+    const hit = !q || c.textContent.toLowerCase().includes(q);
+    c.classList.toggle('hidden', !hit);
+    if (hit) any = true;
+  });
+  document.querySelectorAll('section').forEach(s => {
+    const drinks = s.querySelectorAll('.card.drink');
+    if (!drinks.length) { s.classList.toggle('hidden', !!q); return; }
+    const vis = [...drinks].some(c => !c.classList.contains('hidden'));
+    s.classList.toggle('hidden', q && !vis);
+    s.querySelectorAll('.vessel-tag').forEach(t => t.classList.toggle('hidden', !!q));
+  });
+  noResults.style.display = (q && !any) ? 'block' : 'none';
+});
+
+// Back to top
+const toTop = document.getElementById('toTop');
+window.addEventListener('scroll', () => toTop.classList.toggle('show', window.scrollY > 500));
+toTop.addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
+</script>
+
+</body>
+</html>
